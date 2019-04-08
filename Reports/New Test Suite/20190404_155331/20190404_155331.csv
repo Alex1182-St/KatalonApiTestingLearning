@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2019-04-04 15:53:41,2019-04-04 15:54:04,"23,297s",PASSED
+,,,,,,
+Test Cases/CalculatorTest/AddTest,,,2019-04-04 15:53:42,2019-04-04 15:53:52,"10,247s",PASSED
+"sendRequest(findTestObject(""CalculatorSoapService/AddCalc""))",,,2019-04-04 15:53:43,2019-04-04 15:53:49,"6,005s",PASSED
+"response = sendRequestAndVerify(findTestObject(""CalculatorSoapService/AddCalc""))",,,2019-04-04 15:53:49,2019-04-04 15:53:52,"3,280s",PASSED
+,,,,,,
+Test Cases/ReqresTest/UsersListTest,,,2019-04-04 15:53:52,2019-04-04 15:53:56,"3,060s",PASSED
+"sendRequest(findTestObject(""ReqresRestService/ListUsers""))",,,2019-04-04 15:53:53,2019-04-04 15:53:54,"1,502s",PASSED
+"response = sendRequestAndVerify(findTestObject(""ReqresRestService/ListUsers""))",,,2019-04-04 15:53:54,2019-04-04 15:53:55,"0,940s",PASSED
+"verifyElementPropertyValue(response, ""data[1].first_name"", ""Charles"")",,,2019-04-04 15:53:55,2019-04-04 15:53:55,"0,038s",PASSED
+"verifyElementPropertyValue(response, ""data[1].id"", ""5"")",,,2019-04-04 15:53:55,2019-04-04 15:53:55,"0,029s",PASSED
+"verifyElementPropertyValue(response, ""data[2].id"", ""6"")",,,2019-04-04 15:53:55,2019-04-04 15:53:55,"0,034s",PASSED
+"verifyElementsCount(response, ""data"", 3)",,,2019-04-04 15:53:55,2019-04-04 15:53:56,"0,097s",PASSED
+,,,,,,
+Test Cases/ReqresTest/HttpMethodsTest,,,2019-04-04 15:53:56,2019-04-04 15:54:00,"4,784s",PASSED
+"sendRequestAndVerify(findTestObject(""ReqresRestService/ListUsers""))",,,2019-04-04 15:53:56,2019-04-04 15:53:58,"1,727s",PASSED
+"sendRequestAndVerify(findTestObject(""ReqresRestService/UserCreation""))",,,2019-04-04 15:53:58,2019-04-04 15:53:58,"0,834s",PASSED
+"sendRequestAndVerify(findTestObject(""ReqresRestService/UserUpdate""))",,,2019-04-04 15:53:58,2019-04-04 15:53:59,"0,918s",PASSED
+"sendRequestAndVerify(findTestObject(""ReqresRestService/UserDelete""))",,,2019-04-04 15:53:59,2019-04-04 15:54:00,"0,928s",PASSED
+,,,,,,
+Test Cases/ReqresTest/UsersListTest,,,2019-04-04 15:54:00,2019-04-04 15:54:04,"3,881s",PASSED
+"sendRequest(findTestObject(""ReqresRestService/ListUsers""))",,,2019-04-04 15:54:00,2019-04-04 15:54:03,"2,311s",PASSED
+"response = sendRequestAndVerify(findTestObject(""ReqresRestService/ListUsers""))",,,2019-04-04 15:54:03,2019-04-04 15:54:04,"0,985s",PASSED
+"verifyElementPropertyValue(response, ""data[1].first_name"", ""Charles"")",,,2019-04-04 15:54:04,2019-04-04 15:54:04,"0,319s",PASSED
+"verifyElementPropertyValue(response, ""data[1].id"", ""5"")",,,2019-04-04 15:54:04,2019-04-04 15:54:04,"0,101s",PASSED
+"verifyElementPropertyValue(response, ""data[2].id"", ""6"")",,,2019-04-04 15:54:04,2019-04-04 15:54:04,"0,038s",PASSED
+"verifyElementsCount(response, ""data"", 3)",,,2019-04-04 15:54:04,2019-04-04 15:54:04,"0,048s",PASSED

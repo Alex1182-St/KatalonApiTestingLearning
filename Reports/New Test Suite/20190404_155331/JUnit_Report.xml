@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="23" tests="4" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="4" failures="0" errors="0" time="23" timestamp="2019-04-04 15:53:41" hostname="stepanyuk - Stepanyuk_A.eney2015.local" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\stepanyuk\\Katalon Studio\\Api Demo Project\\Reports\\New Test Suite\\20190404_155331"/>
+         <property name="logFiles" value="C:\\Users\\stepanyuk\\Katalon Studio\\Api Demo Project\\Reports\\New Test Suite\\20190404_155331\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="stepanyuk - Stepanyuk_A.eney2015.local"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+      </properties>
+      <testcase name="Test Cases/CalculatorTest/AddTest" classname="Test Cases/CalculatorTest/AddTest" status="PASSED">
+         <system-out><![CDATA[2019-04-04 15:53:42 - [TEST_CASE][PASSED] - Test Cases/CalculatorTest/AddTest: Test Cases/CalculatorTest/AddTest
+
+2019-04-04 15:53:43 - [TEST_STEP][PASSED] - sendRequest(findTestObject("CalculatorSoapService/AddCalc")): Send request successfully
+
+2019-04-04 15:53:49 - [MESSAGE][INFO] - HAR: C:\Users\stepanyuk\Katalon Studio\Api Demo Project\Reports\New Test Suite\20190404_155331\requests\main\0.har
+
+2019-04-04 15:53:49 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-04 15:53:49 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("CalculatorSoapService/AddCalc")): Send request and verify the response successfully
+
+2019-04-04 15:53:50 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-04-04 15:53:51 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-04-04 15:53:51 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-04-04 15:53:51 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-04-04 15:53:51 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-04-04 15:53:51 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-04-04 15:53:51 - [TEST_STEP][PASSED] - getResponseText()).contains("AddResult"): null
+
+2019-04-04 15:53:52 - [TEST_STEP][PASSED] - verifyElementText(response, "AddResponse.AddResult", "7"): Verify element text successfully
+
+2019-04-04 15:53:52 - [MESSAGE][PASSED] - Verify element text successfully
+
+2019-04-04 15:53:52 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-04-04 15:53:52 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ReqresTest/UsersListTest" classname="Test Cases/ReqresTest/UsersListTest" status="PASSED">
+         <system-out><![CDATA[2019-04-04 15:53:52 - [TEST_CASE][PASSED] - Test Cases/ReqresTest/UsersListTest: Test Cases/ReqresTest/UsersListTest
+
+2019-04-04 15:53:53 - [TEST_STEP][PASSED] - sendRequest(findTestObject("ReqresRestService/ListUsers")): Send request successfully
+
+2019-04-04 15:53:54 - [MESSAGE][INFO] - HAR: C:\Users\stepanyuk\Katalon Studio\Api Demo Project\Reports\New Test Suite\20190404_155331\requests\main\1.har
+
+2019-04-04 15:53:54 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-04 15:53:54 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("ReqresRestService/ListUsers")): Send request and verify the response successfully
+
+2019-04-04 15:53:55 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-04-04 15:53:55 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-04-04 15:53:55 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-04-04 15:53:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-04-04 15:53:55 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-04-04 15:53:55 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-04-04 15:53:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].first_name", "Charles"): Verify element property value successfully
+
+2019-04-04 15:53:55 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-04 15:53:55 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-04-04 15:53:55 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-04-04 15:53:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].first_name", "Charles"): Verify element property value successfully
+
+2019-04-04 15:53:55 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-04 15:53:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].id", "5"): Verify element property value successfully
+
+2019-04-04 15:53:55 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-04 15:53:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].id", "6"): Verify element property value successfully
+
+2019-04-04 15:53:55 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-04 15:53:55 - [TEST_STEP][PASSED] - verifyElementsCount(response, "data", 3): Verify element count successfully
+
+2019-04-04 15:53:56 - [MESSAGE][PASSED] - Verify element count successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ReqresTest/HttpMethodsTest" classname="Test Cases/ReqresTest/HttpMethodsTest" status="PASSED">
+         <system-out><![CDATA[2019-04-04 15:53:56 - [TEST_CASE][PASSED] - Test Cases/ReqresTest/HttpMethodsTest: Test Cases/ReqresTest/HttpMethodsTest
+
+2019-04-04 15:53:56 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("ReqresRestService/ListUsers")): Send request and verify the response successfully
+
+2019-04-04 15:53:57 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-04-04 15:53:57 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-04-04 15:53:57 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-04-04 15:53:58 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-04-04 15:53:58 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-04-04 15:53:58 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-04-04 15:53:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].first_name", "Charles"): Verify element property value successfully
+
+2019-04-04 15:53:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-04 15:53:58 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-04-04 15:53:58 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-04-04 15:53:58 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("ReqresRestService/UserCreation")): Send request and verify the response successfully
+
+2019-04-04 15:53:58 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-04-04 15:53:58 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-04-04 15:53:58 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-04-04 15:53:58 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-04-04 15:53:58 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-04-04 15:53:58 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("ReqresRestService/UserUpdate")): Send request and verify the response successfully
+
+2019-04-04 15:53:59 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-04-04 15:53:59 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-04-04 15:53:59 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-04-04 15:53:59 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-04-04 15:53:59 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-04-04 15:53:59 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("ReqresRestService/UserDelete")): Send request and verify the response successfully
+
+2019-04-04 15:54:00 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-04-04 15:54:00 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-04-04 15:54:00 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-04-04 15:54:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 204): Verify response status code successfully
+
+2019-04-04 15:54:00 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-04-04 15:54:00 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(204): null
+
+2019-04-04 15:54:00 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-04-04 15:54:00 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ReqresTest/UsersListTest" classname="Test Cases/ReqresTest/UsersListTest" status="PASSED">
+         <system-out><![CDATA[2019-04-04 15:54:00 - [TEST_CASE][PASSED] - Test Cases/ReqresTest/UsersListTest: Test Cases/ReqresTest/UsersListTest
+
+2019-04-04 15:54:00 - [TEST_STEP][PASSED] - sendRequest(findTestObject("ReqresRestService/ListUsers")): Send request successfully
+
+2019-04-04 15:54:03 - [MESSAGE][INFO] - HAR: C:\Users\stepanyuk\Katalon Studio\Api Demo Project\Reports\New Test Suite\20190404_155331\requests\main\2.har
+
+2019-04-04 15:54:03 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-04 15:54:03 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("ReqresRestService/ListUsers")): Send request and verify the response successfully
+
+2019-04-04 15:54:03 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-04-04 15:54:03 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-04-04 15:54:03 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-04-04 15:54:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-04-04 15:54:03 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-04-04 15:54:03 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-04-04 15:54:03 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].first_name", "Charles"): Verify element property value successfully
+
+2019-04-04 15:54:04 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-04 15:54:04 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-04-04 15:54:04 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-04-04 15:54:04 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].first_name", "Charles"): Verify element property value successfully
+
+2019-04-04 15:54:04 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-04 15:54:04 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].id", "5"): Verify element property value successfully
+
+2019-04-04 15:54:04 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-04 15:54:04 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].id", "6"): Verify element property value successfully
+
+2019-04-04 15:54:04 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-04 15:54:04 - [TEST_STEP][PASSED] - verifyElementsCount(response, "data", 3): Verify element count successfully
+
+2019-04-04 15:54:04 - [MESSAGE][PASSED] - Verify element count successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-04 15:53:41 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/ReqresTest/UsersListTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
